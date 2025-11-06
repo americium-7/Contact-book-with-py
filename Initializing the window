@@ -1,0 +1,19 @@
+root = Tk()
+root.geometry('700x550')
+root.config(bg = '#d3f3f5')
+root.title('PythonGeeks Contact Book')
+root.resizable(0,0)
+contactlist = [
+    ['Aditya Mhetre','7385491489'],
+    ['Akash Patil', '521155222'],
+    ['Abhishek bajaj', '78945614'],
+    ['Smruti mandana', '58745246'],
+    ['shreyash neckless', '5846975'],
+    ['Karan ahuja', '5647892'],
+    ['Sam Poul', '89685320'],
+    ['John cina', '98564785'],
+    ['Ganesh Pawar','85967412']
+    ]
+ 
+Name = StringVar()
+Number = StringVar()
