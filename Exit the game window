@@ -1,7 +1,8 @@
 def EXIT():
     root.destroy() 
 
-
 def Select_set() :
     contactlist.sort()
+  select.delete(0,END)
+    for name,phone in contactlist :
  
