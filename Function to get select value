@@ -1,0 +1,7 @@
+#Py
+def Selected():
+    print("hello",len(select.curselection()))
+    if len(select.curselection())==0:
+        messagebox.showerror("Error", "Please Select the Name")
+    else:
+        return int(select.curselection()[0])
