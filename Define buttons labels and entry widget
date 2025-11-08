@@ -10,3 +10,5 @@ Button(root,text="DELETE", font='Helvetica 18 bold',bg='#e8c1c7',command = Delet
 Button(root,text="VIEW", font='Helvetica 18 bold',bg='#e8c1c7', command = VIEW).place(x= 50, y=325)
 Button(root,text="RESET", font='Helvetica 18 bold',bg='#e8c1c7', command = EntryReset).place(x= 50, y=390)
 Button(root,text="EXIT", font='Helvetica 24 bold',bg='tomato', command = EXIT).place(x= 250, y=470)
+
+root.mainloop()
